@@ -11,6 +11,6 @@ I've also opened a issue [here](https://github.com/tailwindlabs/tailwindcss/disc
 
 So, you can view the project at this [CodeSandBox](https://codesandbox.io/s/intelligent-brook-fc9o2m?file=/src/App.tsx)
 
-I know there's no color but let me show you the what it likes in localhost: 
+I know there's no color but let me show you the what it looks like in localhost: 
 
 <img src='https://github.com/mzs21/bar-chart/blob/main/public/localhost_3000.png?raw=true'>
