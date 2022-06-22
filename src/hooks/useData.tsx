@@ -1,15 +1,21 @@
-import { json } from "d3";
 import { useEffect, useState } from "react";
 
 const useData = (URL: string) => {
   const [data, setData] = useState<[{ [key: string]: any }]>();
 
   useEffect(() => {
-    json(URL).then((data: { [key: string]: any }) => setData(data.data));
+    let fetchData = async () => {
+      const response: Response = await fetch(URL);
+      const data = await response.json();
+
+      setData(data.data);
+    };
+
+    fetchData();
+    
   }, [URL]); // Fetching & updaing data
 
   return data;
 };
 
 export default useData;
-
