@@ -16,8 +16,8 @@
   }
 }
 
-@layer components {
+/* @layer components {
   .rect {
     @apply fill-sky-600 hover:fill-blue-700 text-3xl;
   }
-}
+} */
